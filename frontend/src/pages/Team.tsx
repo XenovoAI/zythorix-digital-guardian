@@ -3,6 +3,7 @@ import Footer from "@/components/layout/Footer";
 import { Linkedin, Twitter, Instagram } from "lucide-react";
 import riteshPhoto from "@/assets/ritesh-swain.jpg";
 import vishwajeetPhoto from "@/assets/vishwajeet-kumar.jpg";
+import abhijeetPhoto from "@/assets/abhijeet-kumar.jpg";
 
 const Team = () => {
   const teamMembers = [
