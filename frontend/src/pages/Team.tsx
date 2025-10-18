@@ -4,6 +4,7 @@ import { Linkedin, Twitter, Instagram } from "lucide-react";
 import riteshPhoto from "@/assets/ritesh-swain.jpg";
 import vishwajeetPhoto from "@/assets/vishwajeet-kumar.jpg";
 import abhijeetPhoto from "@/assets/abhijeet-kumar.jpg";
+import kirtiPhoto from "@/assets/kirti-gupta.jpg";
 
 const Team = () => {
   const teamMembers = [
