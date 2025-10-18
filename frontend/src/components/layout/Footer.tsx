@@ -122,19 +122,19 @@ const Footer = () => {
                 <li className="flex items-center gap-2 text-white/80">
                   <Mail size={16} />
                   <a
-                    href="mailto:info@zythorix.com"
+                    href="mailto:contact@zythorixtech.com"
                     className="hover:text-white transition-colors"
                   >
-                    info@zythorix.com
+                    contact@zythorixtech.com
                   </a>
                 </li>
                 <li className="flex items-center gap-2 text-white/80">
                   <Phone size={16} />
                   <a
-                    href="tel:+1234567890"
+                    href="tel:+919204536628"
                     className="hover:text-white transition-colors"
                   >
-                    +1 (234) 567-890
+                    +91 920 453 6628
                   </a>
                 </li>
               </ul>
