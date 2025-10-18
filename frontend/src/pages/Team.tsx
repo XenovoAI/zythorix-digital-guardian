@@ -33,7 +33,7 @@ const Team = () => {
       name: "Abhijeet Kumar",
       title: "Founding Member & Content Protection Expert",
       bio: "A pioneering EdTech security specialist, Abhijeet has built robust anti-piracy frameworks for India's top learning platforms, executed advanced DMCA takedowns, and preserved premium educational content valued at millions through forensic watermarking and AI-driven enforcement.",
-      image: "",
+      image: abhijeetPhoto,
       social: {
         linkedin: "#",
         twitter: "#",
