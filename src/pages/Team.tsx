@@ -2,6 +2,7 @@ import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { Linkedin, Twitter, Instagram } from "lucide-react";
 import riteshPhoto from "@/assets/ritesh-swain.jpg";
+import vishwajeetPhoto from "@/assets/vishwajeet-kumar.jpg";
 
 const Team = () => {
   const teamMembers = [
@@ -20,7 +21,7 @@ const Team = () => {
       name: "Vishwajeet Kumar",
       title: "Co-Founder & COO",
       bio: "Holds a BTech in AI Engineering from NIAR Vadodara, Vishwajeet spearheads our AI initiatives, architecting machine learning pipelines and intelligent automations that drive real-time piracy detection and seamless integration with enterprise systems.",
-      image: "",
+      image: vishwajeetPhoto,
       social: {
         linkedin: "#",
         twitter: "#",
