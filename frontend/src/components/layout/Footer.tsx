@@ -140,21 +140,27 @@ const Footer = () => {
               </ul>
               <div className="flex gap-3 mt-4">
                 <a
-                  href="#"
+                  href="https://www.linkedin.com/company/zythorixtechnologies/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white/80 hover:text-white transition-colors"
                   aria-label="LinkedIn"
                 >
                   <Linkedin size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://x.com/zythorixtech"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white/80 hover:text-white transition-colors"
                   aria-label="Twitter"
                 >
                   <Twitter size={20} />
                 </a>
                 <a
-                  href="#"
+                  href="https://www.instagram.com/zythorixtechnologies"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="text-white/80 hover:text-white transition-colors"
                   aria-label="Instagram"
                 >
