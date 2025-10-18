@@ -1,6 +1,7 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
 import { Linkedin, Twitter, Instagram } from "lucide-react";
+import riteshPhoto from "@/assets/ritesh-swain.jpg";
 
 const Team = () => {
   const teamMembers = [
@@ -8,7 +9,7 @@ const Team = () => {
       name: "Ritesh Swain",
       title: "Founder & CEO",
       bio: "Studying BSc Geology at Central University of Karnataka, Ritesh is a renowned EdTech influencer who has collaborated with NEETPrep and Aakash Education to design adaptive learning strategies, create engaging video content, and scale student communities across social platforms.",
-      image: "",
+      image: riteshPhoto,
       social: {
         linkedin: "#",
         twitter: "#",
@@ -91,9 +92,17 @@ const Team = () => {
                 >
                   <div className="relative mb-6 inline-block">
                     {/* Photo Placeholder */}
-                    <div className="w-48 h-48 rounded-full bg-gradient-to-br from-primary/30 to-secondary/30 mx-auto flex items-center justify-center text-4xl font-bold text-white group-hover:scale-105 transition-transform duration-300">
-                      {member.name.split(" ").map(n => n[0]).join("")}
-                    </div>
+                    {member.image ? (
+                      <img 
+                        src={member.image} 
+                        alt={member.name}
+                        className="w-48 h-48 rounded-full object-cover mx-auto group-hover:scale-105 transition-transform duration-300"
+                      />
+                    ) : (
+                      <div className="w-48 h-48 rounded-full bg-gradient-to-br from-primary/30 to-secondary/30 mx-auto flex items-center justify-center text-4xl font-bold text-white group-hover:scale-105 transition-transform duration-300">
+                        {member.name.split(" ").map(n => n[0]).join("")}
+                      </div>
+                    )}
                   </div>
 
                   <h3 className="text-2xl font-bold text-secondary mb-2">
