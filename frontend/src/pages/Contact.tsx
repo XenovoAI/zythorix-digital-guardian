@@ -169,9 +169,9 @@ const Contact = () => {
                     <div>
                       <h3 className="font-semibold text-secondary mb-1">Address</h3>
                       <p className="text-muted-foreground">
-                        123 Tech Boulevard<br />
-                        Innovation District<br />
-                        San Francisco, CA 94105
+                        Airtel Tower Campus<br />
+                        Hathopur, Siwan<br />
+                        Bihar, India
                       </p>
                     </div>
                   </div>
