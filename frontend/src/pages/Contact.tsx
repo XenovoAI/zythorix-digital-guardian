@@ -180,8 +180,8 @@ const Contact = () => {
                     <Mail className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold text-secondary mb-1">Email</h3>
-                      <a href="mailto:info@zythorix.com" className="text-primary hover:underline">
-                        info@zythorix.com
+                      <a href="mailto:contact@zythorixtech.com" className="text-primary hover:underline">
+                        contact@zythorixtech.com
                       </a>
                     </div>
                   </div>
@@ -190,8 +190,8 @@ const Contact = () => {
                     <Phone className="w-6 h-6 text-primary flex-shrink-0 mt-1" />
                     <div>
                       <h3 className="font-semibold text-secondary mb-1">Phone</h3>
-                      <a href="tel:+1234567890" className="text-primary hover:underline">
-                        +1 (234) 567-890
+                      <a href="tel:+919204536628" className="text-primary hover:underline">
+                        +91 920 453 6628
                       </a>
                     </div>
                   </div>
