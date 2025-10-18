@@ -7,7 +7,7 @@ const Team = () => {
     {
       name: "Ritesh Swain",
       title: "Founder & CEO",
-      bio: "Visionary leader driving innovation in digital protection",
+      bio: "Studying BSc Geology at Central University of Karnataka, Ritesh is a renowned EdTech influencer who has collaborated with NEETPrep and Aakash Education to design adaptive learning strategies, create engaging video content, and scale student communities across social platforms.",
       image: "",
       social: {
         linkedin: "#",
@@ -18,7 +18,7 @@ const Team = () => {
     {
       name: "Vishwajeet Kumar",
       title: "Co-Founder & COO",
-      bio: "Operational excellence and strategic growth expert",
+      bio: "Holds a BTech in AI Engineering from NIAR Vadodara, Vishwajeet spearheads our AI initiatives, architecting machine learning pipelines and intelligent automations that drive real-time piracy detection and seamless integration with enterprise systems.",
       image: "",
       social: {
         linkedin: "#",
@@ -29,7 +29,7 @@ const Team = () => {
     {
       name: "Abhijeet Kumar",
       title: "Founding Member & Content Protection Expert",
-      bio: "Pioneering anti-piracy technology and solutions",
+      bio: "A pioneering EdTech security specialist, Abhijeet has built robust anti-piracy frameworks for India's top learning platforms, executed advanced DMCA takedowns, and preserved premium educational content valued at millions through forensic watermarking and AI-driven enforcement.",
       image: "",
       social: {
         linkedin: "#",
@@ -40,7 +40,7 @@ const Team = () => {
     {
       name: "Kirti Gupta",
       title: "Founding Member & CFO",
-      bio: "Financial strategy and sustainable growth leader",
+      bio: "Pursuing a BSc in Psychology at Central University of Karnataka, Kirti combines behavioral insights with financial acumen to optimize budget allocations, forecast growth trajectories, and craft data-driven funding strategies that sustain our global anti-piracy operations.",
       image: "",
       social: {
         linkedin: "#",
@@ -51,7 +51,7 @@ const Team = () => {
     {
       name: "Harshit Patidar",
       title: "Founding Member & CTO",
-      bio: "Technical architecture and innovation driver",
+      bio: "An Indian entrepreneur and innovator, Harshit is Founder & CEO of Xenovo AI—championing breakthroughs in AI, blockchain, and decentralized systems—and Co-Founder of SirCBSE.com. At Zythorix, he leads development of cutting-edge software architectures and scalable security solutions.",
       image: "",
       social: {
         linkedin: "#",
