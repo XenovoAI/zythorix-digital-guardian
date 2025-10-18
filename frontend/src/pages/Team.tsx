@@ -45,7 +45,7 @@ const Team = () => {
       name: "Kirti Gupta",
       title: "Founding Member & CFO",
       bio: "Pursuing a BSc in Psychology at Central University of Karnataka, Kirti combines behavioral insights with financial acumen to optimize budget allocations, forecast growth trajectories, and craft data-driven funding strategies that sustain our global anti-piracy operations.",
-      image: "",
+      image: kirtiPhoto,
       social: {
         linkedin: "#",
         twitter: "#",
