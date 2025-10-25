@@ -15,7 +15,7 @@ const Team = () => {
       bio: "Studying BSc Geology at Central University of Karnataka, Ritesh is a renowned EdTech influencer who has collaborated with NEETPrep and Aakash Education to design adaptive learning strategies, create engaging video content, and scale student communities across social platforms.",
       image: riteshPhoto,
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/ritesh-ranjan-swain-0a2984320",
         twitter: "#",
         instagram: "#",
       },
@@ -37,7 +37,7 @@ const Team = () => {
       bio: "A pioneering EdTech security specialist, Abhijeet has built robust anti-piracy frameworks for India's top learning platforms, executed advanced DMCA takedowns, and preserved premium educational content valued at millions through forensic watermarking and AI-driven enforcement.",
       image: abhijeetPhoto,
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/abhijeet-kumar-33b32338b",
         twitter: "#",
         instagram: "#",
       },
@@ -48,7 +48,7 @@ const Team = () => {
       bio: "Pursuing a BSc in Psychology at Central University of Karnataka, Kirti combines behavioral insights with financial acumen to optimize budget allocations, forecast growth trajectories, and craft data-driven funding strategies that sustain our global anti-piracy operations.",
       image: kirtiPhoto,
       social: {
-        linkedin: "#",
+        linkedin: "https://www.linkedin.com/in/kirti-gupta-86617738b",
         twitter: "#",
         instagram: "#",
       },
@@ -59,7 +59,7 @@ const Team = () => {
       bio: "An Indian entrepreneur and innovator, Harshit is Founder & CEO of Xenovo AI—championing breakthroughs in AI, blockchain, and decentralized systems—and Co-Founder of SirCBSE.com. At Zythorix, he leads development of cutting-edge software architectures and scalable security solutions.",
       image: harshitPhoto,
       social: {
-        linkedin: "#",
+        linkedin: "https://in.linkedin.com/in/harshit-patidar-23a123337",
         twitter: "#",
         instagram: "#",
       },
