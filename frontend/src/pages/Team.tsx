@@ -5,6 +5,7 @@ import riteshPhoto from "@/assets/ritesh-swain.jpg";
 import vishwajeetPhoto from "@/assets/vishwajeet-kumar.jpg";
 import abhijeetPhoto from "@/assets/abhijeet-kumar.jpg";
 import kirtiPhoto from "@/assets/kirti-gupta.jpg";
+import harshitPhoto from "@/assets/harshit-patidar.jpg";
 
 const Team = () => {
   const teamMembers = [
@@ -56,7 +57,7 @@ const Team = () => {
       name: "Harshit Patidar",
       title: "Founding Member & CTO",
       bio: "An Indian entrepreneur and innovator, Harshit is Founder & CEO of Xenovo AI—championing breakthroughs in AI, blockchain, and decentralized systems—and Co-Founder of SirCBSE.com. At Zythorix, he leads development of cutting-edge software architectures and scalable security solutions.",
-      image: "",
+      image: harshitPhoto,
       social: {
         linkedin: "#",
         twitter: "#",
