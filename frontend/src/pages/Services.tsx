@@ -1,12 +1,12 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
-import { Shield, Code, Fingerprint, TrendingUp } from "lucide-react";
+import { Shield, Code, Fingerprint, TrendingUp, GraduationCap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
 const Services = () => {
-  const [activeTab, setActiveTab] = useState<"antipiracy" | "webdev">("antipiracy");
+  const [activeTab, setActiveTab] = useState<"antipiracy" | "webdev" | "educational">("antipiracy");
 
   const services = [
     {
@@ -32,6 +32,18 @@ const Services = () => {
         "Performance-first architecture",
       ],
       imageAlt: "Web development code",
+    },
+    {
+      icon: GraduationCap,
+      title: "Educational Services",
+      description: "Flexible pricing models for educational content protection",
+      features: [
+        "Per-Sale Basis: Pay only when content is sold, ideal for course creators",
+        "Per-Member Basis: Monthly subscription per active member, perfect for institutions",
+        "Scalable pricing that grows with your platform",
+        "Dedicated educational content monitoring",
+      ],
+      imageAlt: "Educational services pricing",
     },
     {
       icon: Fingerprint,
@@ -73,6 +85,13 @@ const Services = () => {
       { name: "SEO Optimization", included: true },
       { name: "Performance Tuning", included: true },
       { name: "Ongoing Support", included: true },
+    ],
+    educational: [
+      { name: "Per-Sale Pricing Model", included: true },
+      { name: "Per-Member Pricing Model", included: true },
+      { name: "Scalable Subscription Plans", included: true },
+      { name: "Educational Content Focus", included: true },
+      { name: "Flexible Payment Options", included: true },
     ],
   };
 
@@ -159,11 +178,11 @@ const Services = () => {
 
             <div className="max-w-2xl mx-auto">
               {/* Toggle Buttons */}
-              <div className="flex gap-4 mb-8">
+              <div className="flex flex-wrap gap-4 mb-8">
                 <Button
                   onClick={() => setActiveTab("antipiracy")}
                   variant={activeTab === "antipiracy" ? "default" : "outline"}
-                  className={`flex-1 ${
+                  className={`flex-1 min-w-[150px] ${
                     activeTab === "antipiracy"
                       ? "bg-primary text-primary-foreground"
                       : ""
@@ -174,13 +193,24 @@ const Services = () => {
                 <Button
                   onClick={() => setActiveTab("webdev")}
                   variant={activeTab === "webdev" ? "default" : "outline"}
-                  className={`flex-1 ${
+                  className={`flex-1 min-w-[150px] ${
                     activeTab === "webdev"
                       ? "bg-primary text-primary-foreground"
                       : ""
                   }`}
                 >
                   Web Development
+                </Button>
+                <Button
+                  onClick={() => setActiveTab("educational")}
+                  variant={activeTab === "educational" ? "default" : "outline"}
+                  className={`flex-1 min-w-[150px] ${
+                    activeTab === "educational"
+                      ? "bg-primary text-primary-foreground"
+                      : ""
+                  }`}
+                >
+                  Educational Services
                 </Button>
               </div>
 
