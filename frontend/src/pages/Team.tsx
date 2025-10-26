@@ -1,5 +1,6 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import SEO from "@/components/SEO";
 import { Linkedin, Twitter, Instagram } from "lucide-react";
 import riteshPhoto from "@/assets/ritesh-swain.jpg";
 import vishwajeetPhoto from "@/assets/vishwajeet-kumar.jpg";
@@ -66,8 +67,32 @@ const Team = () => {
     },
   ];
 
+  const teamSchema = {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "name": "Zythorix Technologies",
+    "employee": teamMembers.map(member => ({
+      "@type": "Person",
+      "name": member.name,
+      "jobTitle": member.title,
+      "description": member.bio,
+      "sameAs": Object.values(member.social).filter(url => url !== "#")
+    }))
+  };
+
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Meet Our Team - Leadership & Experts"
+        description="Meet the passionate innovators behind Zythorix Technologies. Our team includes experts in AI, anti-piracy, web development, and educational technology security."
+        keywords="zythorix team, founders, leadership, AI experts, anti-piracy specialists, technology innovators"
+        canonical="https://zythorixtech.in/team"
+        schema={teamSchema}
+        breadcrumbs={[
+          { name: "Home", url: "https://zythorixtech.in/" },
+          { name: "Team", url: "https://zythorixtech.in/team" }
+        ]}
+      />
       <Header />
       <main className="pt-24">
         {/* Hero Banner */}

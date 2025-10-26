@@ -1,9 +1,20 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import SEO from "@/components/SEO";
 
 const TermsOfService = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Terms of Service"
+        description="Read Zythorix Technologies' Terms of Service outlining user responsibilities, service agreements, intellectual property rights, and legal terms for our digital protection services."
+        keywords="terms of service, user agreement, legal terms, service conditions, zythorix terms"
+        canonical="https://zythorixtech.in/terms-of-service"
+        breadcrumbs={[
+          { name: "Home", url: "https://zythorixtech.in/" },
+          { name: "Terms of Service", url: "https://zythorixtech.in/terms-of-service" }
+        ]}
+      />
       <Header />
       <main className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">

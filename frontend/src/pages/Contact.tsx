@@ -1,5 +1,6 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import SEO from "@/components/SEO";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
@@ -48,6 +49,16 @@ const Contact = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Contact Us - Get Digital Protection Solutions"
+        description="Contact Zythorix Technologies for enterprise-grade anti-piracy solutions and custom web development. Located in Bihar, India. Call +91 920 453 6628"
+        keywords="contact zythorix, anti-piracy consultation, web development services, digital protection contact"
+        canonical="https://zythorixtech.in/contact"
+        breadcrumbs={[
+          { name: "Home", url: "https://zythorixtech.in/" },
+          { name: "Contact", url: "https://zythorixtech.in/contact" }
+        ]}
+      />
       <Header />
       <main className="pt-24">
         {/* Hero Banner */}

@@ -1,5 +1,6 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import SEO from "@/components/SEO";
 import { Brain, Zap, Shield, Database, Search, Bell } from "lucide-react";
 
 const About = () => {
@@ -22,6 +23,16 @@ const About = () => {
 
   return (
     <div className="min-h-screen">
+      <SEO
+        title="About Zythorix Technologies - Digital Asset Protection & Innovation"
+        description="Learn about Zythorix Technologies' journey in pioneering digital asset protection and web innovation. Our mission, vision, and cutting-edge technology platform."
+        keywords="about zythorix, company history, digital protection, technology platform, mission vision"
+        canonical="https://zythorixtech.in/about"
+        breadcrumbs={[
+          { name: "Home", url: "https://zythorixtech.in/" },
+          { name: "About", url: "https://zythorixtech.in/about" }
+        ]}
+      />
       <Header />
       <main className="pt-24">
         {/* Hero Banner */}

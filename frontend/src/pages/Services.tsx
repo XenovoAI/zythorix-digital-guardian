@@ -1,5 +1,6 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import SEO from "@/components/SEO";
 import { Shield, Code, Fingerprint, TrendingUp, GraduationCap } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
@@ -95,8 +96,36 @@ const Services = () => {
     ],
   };
 
+  const serviceSchema = {
+    "@context": "https://schema.org",
+    "@type": "Service",
+    "name": "Anti-Piracy Automation Services",
+    "description": "AI-powered scanning and instant DMCA takedowns to protect your content 24/7",
+    "provider": {
+      "@type": "Organization",
+      "name": "Zythorix Technologies",
+      "url": "https://zythorixtech.in"
+    },
+    "serviceType": "Digital Content Protection",
+    "areaServed": {
+      "@type": "Country",
+      "name": "India"
+    }
+  };
+
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Our Services - Anti-Piracy & Web Development"
+        description="Comprehensive digital protection and web development services including AI-powered anti-piracy automation, custom web development, content fingerprinting, and revenue recovery analytics."
+        keywords="anti-piracy services, web development, content fingerprinting, DMCA automation, educational services, digital protection"
+        canonical="https://zythorixtech.in/services"
+        schema={serviceSchema}
+        breadcrumbs={[
+          { name: "Home", url: "https://zythorixtech.in/" },
+          { name: "Services", url: "https://zythorixtech.in/services" }
+        ]}
+      />
       <Header />
       <main className="pt-24">
         {/* Hero Banner */}

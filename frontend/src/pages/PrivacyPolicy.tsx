@@ -1,9 +1,20 @@
 import Header from "@/components/layout/Header";
 import Footer from "@/components/layout/Footer";
+import SEO from "@/components/SEO";
 
 const PrivacyPolicy = () => {
   return (
     <div className="min-h-screen">
+      <SEO
+        title="Privacy Policy"
+        description="Zythorix Technologies' Privacy Policy detailing how we collect, use, protect, and manage your personal information and data security practices."
+        keywords="privacy policy, data protection, personal information, data security, gdpr, privacy rights"
+        canonical="https://zythorixtech.in/privacy-policy"
+        breadcrumbs={[
+          { name: "Home", url: "https://zythorixtech.in/" },
+          { name: "Privacy Policy", url: "https://zythorixtech.in/privacy-policy" }
+        ]}
+      />
       <Header />
       <main className="py-20 bg-white">
         <div className="container mx-auto px-4 max-w-4xl">
