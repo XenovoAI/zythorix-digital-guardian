@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Button } from "@/components/ui/button";
 import { Link } from "react-router-dom";
-import { Play } from "lucide-react";
 
 const Hero = () => {
   const [displayedText, setDisplayedText] = useState("");
@@ -42,25 +41,14 @@ const Hero = () => {
             Enterprise-grade anti-piracy automation and custom web development.
           </p>
 
-          {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up" style={{ animationDelay: "2.5s" }}>
+          {/* CTA Button */}
+          <div className="flex justify-center animate-fade-up" style={{ animationDelay: "2.5s" }}>
             <Button
               asChild
               size="lg"
               className="bg-primary hover:bg-primary/90 text-primary-foreground text-lg px-8 py-6"
             >
               <Link to="/services">Explore Services</Link>
-            </Button>
-            <Button
-              asChild
-              size="lg"
-              variant="outline"
-              className="border-2 border-primary text-primary hover:bg-primary/10 text-lg px-8 py-6"
-            >
-              <a href="#demo" className="flex items-center gap-2">
-                <Play size={20} />
-                Watch Demo
-              </a>
             </Button>
           </div>
         </div>
