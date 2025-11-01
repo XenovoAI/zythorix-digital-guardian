@@ -3,9 +3,11 @@ Allow: /
 Disallow: /admin/
 Disallow: /api/
 Disallow: /private/
+Disallow: /temp/
+
+# Crawl-delay in seconds
+Crawl-delay: 1
 
 # Sitemap
 Sitemap: https://zythorixtech.in/sitemap.xml
-
-# Crawl-delay
-Crawl-delay: 1
+Sitemap: https://zythorixtech.in/sitemap-news.xml
